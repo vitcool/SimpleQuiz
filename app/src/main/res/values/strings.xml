@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SimpleQuiz</string>
+    <string name="name_view">SimpleQuiz</string>
+    <string name="made_by">by vitcool</string>
+    <string name="points">0</string>
+    <string name="theme">theme</string>
+    <string name="time">0.00.00</string>
+    <string name="test_question">Каким образом можно запретить наследование класса (речь идет о top-level классах) ?</string>
+    <string name="testA">1516</string>
+    <string name="testB">1516</string>
+    <string name="testC">1648</string>
+    <string name="testD">1844</string>
+
+
+</resources>

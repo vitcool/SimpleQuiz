@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDividingTable">#B3E5FC</color>
+    <color name="colorBackgoundTable">#80D8FF</color>
+    <color name="colorQuestionBackground">#4fc3f7</color>
+    <color name="colorBackground">#BBDEFB</color>
+    <color name="textColor">#263238</color>
+</resources>
