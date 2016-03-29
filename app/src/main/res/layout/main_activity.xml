@@ -3,7 +3,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="user" type="com.example.vitalykulyk.simplequiz.User"/>
+        <variable name="question" type="com.example.vitalykulyk.simplequiz.Question"/>
     </data>
 
 <RelativeLayout
@@ -15,8 +15,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.vitalykulyk.simplequiz.MainActivity"
     android:background="@color/colorBackground">
-
-
 
 
     <LinearLayout
@@ -144,7 +142,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:text="@string/test_question"
+                android:text="@{question.mQuestion}"
                 android:gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/rectangles"
@@ -171,7 +169,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:layout_marginRight="8dp"
-                        android:text="@string/testA"
+                        android:text="@{question.mFirstVariant}"
                         android:background="@drawable/rectangles"
                         />
 
@@ -181,7 +179,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:layout_marginLeft="8dp"
-                        android:text="@string/testB"
+                        android:text="@{question.mSecondVariant}"
                         android:background="@drawable/rectangles"
                         />
                 </LinearLayout>
@@ -198,7 +196,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:layout_marginRight="8dp"
-                        android:text="@string/testC"
+                        android:text="@{question.mThirdVariant}"
                         android:background="@drawable/rectangles"
                         />
 
@@ -208,7 +206,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:layout_marginLeft="8dp"
-                        android:text="@string/testD"
+                        android:text="@{question.mFourthVariant}"
                         android:background="@drawable/rectangles"/>
                 </LinearLayout>
 
